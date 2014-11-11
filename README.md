@@ -12,3 +12,4 @@ Contributors:
 - [Jason Young](https://github.com/JasYoung314)
 - [Geraint Palmer](https://github.com/geraintpalmer)
 - Vince Knight
+- [Harald Schilly](https://github.com/haraldschilly)
