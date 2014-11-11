@@ -1,13 +1,12 @@
 # Shortest possible simulation of an MM1 Q
-import random
+from random import expovariate
 lmbda = 1
 mu = 2
 T = 500
-sample = lambda x: random.expovariate(x)
-t = 0
-arrival_time = t + sample(lmbda)
+sample = lambda x: expovariate(x)
+arrival_time = sample(lmbda)
 start_time = arrival_time
-end_time = sample(mu)
+end_time = arrival_time + sample(mu)
 waits = []
 
 while end_time > T:
