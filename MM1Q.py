@@ -10,7 +10,7 @@ start_time = arrival_time
 end_time = sample(mu)
 waits = []
 
-while end_time > T:
+while end_time < T:
     arrival_time += sample(lmbda)
     start_time = max(end_time, arrival_time)
     end_time = start_time + sample(mu)
