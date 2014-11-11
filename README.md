@@ -2,6 +2,6 @@
 
 Contributors:
 
-- Geraint Palmer
+- [Geraint Palmer](https://github.com/geraintpalmer)
 - Jason Young
 - Vince Knight
