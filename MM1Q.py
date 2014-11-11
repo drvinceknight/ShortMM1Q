@@ -13,5 +13,5 @@ while end_time < T:
     arrival_time += sample(lmbda)
     start_time = max(end_time, arrival_time)
     end_time = start_time + sample(mu)
-    waits.append(end_time - start_time)
+    waits.append(end_time - arrival_time)
 print waits
