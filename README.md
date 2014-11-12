@@ -15,3 +15,4 @@ Contributors:
 - [Geraint Palmer](https://github.com/geraintpalmer)
 - Vince Knight
 - [Harald Schilly](https://github.com/haraldschilly)
+- [Chris Rowlatt](https://github.com/crispy-dev)
